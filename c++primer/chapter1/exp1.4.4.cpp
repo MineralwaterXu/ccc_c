@@ -21,7 +21,7 @@ int main()
         } //while statement is over here
         //save and print the last number of the file
         std::cout << currVal << " occurs " << cnt << " times " << std::endl;
-    } //the outmost layer of if statement is over here
+    } //the outmost layer of if statement is over here 
     system("pause");
     return 0;
 }
