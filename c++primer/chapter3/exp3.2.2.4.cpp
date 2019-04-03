@@ -7,6 +7,7 @@ using std::string;
 int main()
 {
     string line;
+    //read one line each time, jump out when null appears
     while (getline (cin, line) )
         if ( !line.empty() )
             cout << line << endl;
