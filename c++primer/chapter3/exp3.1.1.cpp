@@ -1,5 +1,5 @@
 #include <iostream>
-//using declaration, when we use the name "cin", get it from the name space "std"
+//using declaration; when we use the name cin, we get the one from the namespace std
 using std::cin;
 
 int main()
