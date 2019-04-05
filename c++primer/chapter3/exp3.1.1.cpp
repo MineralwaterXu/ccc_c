@@ -5,7 +5,7 @@ using std::cin;
 int main()
 {
     int i;
-    cin >> i; //correct: cin has the same meaning of std::cin
-    std::cout << i; //correct: explicitly use cout from std
+    cin >> i; //ok: cin is a synonym for std::cin
+    std::cout << i; //ok: explicitly use cout from namepsace std
     return 0;
 }
