@@ -7,10 +7,10 @@ using std::string;
 int main()
 {
     string s; //empty string
-    cin >> s; //put string into s until null
-    cout << s << endl; //output s
+    cin >> s; //read a whitespace-separated string into s
+    cout << s << endl; //write s to the output
     string s1, s2;
-    cin >> s1 >> s2; //put first into s1, second into s2
-    cout << s1 << s2 << endl; //output two strings
+    cin >> s1 >> s2; //read first input into s1, second to s2
+    cout << s1 << s2 << endl; //write both strings
     return 0;
 }
