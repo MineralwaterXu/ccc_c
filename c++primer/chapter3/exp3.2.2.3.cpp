@@ -7,7 +7,7 @@ using std::string;
 int main()
 {
     string line;
-    //read one line each time, until the end of the file
+    //read input a line at a time until end-of-file
     while (getline (cin, line) )
         cout << line << endl;
     return 0;
