@@ -20,4 +20,5 @@ int main()
         printf("Sunday!");
     else
         printf("Error!");
+    return 0;
 }
