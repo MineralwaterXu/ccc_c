@@ -3,7 +3,7 @@
 
 int main()
 {
-    double x, item, f1, fm2, sum = 0;
+    double x, item, f1, fm2 = 1, sum = 0;
     int i = 1, f = 1;
     scanf("%lf", &x);
     item = x;
