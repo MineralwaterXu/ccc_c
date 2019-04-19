@@ -7,7 +7,7 @@ int main()
     scanf("%d %d", &num1, &num2);
     while (num1 < 1 || num2 < 1)
     {
-        printf("Input isn't correct. Please input again:\n");
+        printf("Input isn't correct. Please input again:");
         scanf("%d %d", &num1, &num2);
     }
     a = num1;
