@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, i, j = 0, a = 0, b;
+    int n, i, a = 0, b;
     printf("Input an integer: ");
     scanf("%d", &n);
     printf("%d=", n);
