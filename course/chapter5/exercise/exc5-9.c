@@ -1,25 +1,26 @@
 #include <stdio.h>
+#define N 50
 
 int main()
 {
-   char ch;
-   scanf("%c", &ch);
-   if (ch >= 'a' && ch <= 'z')
-      ch = ch - 32;
-   else if (ch >= 'A' && ch <= 'Z')
-      printf("Enter a string: ");
-   while(ch != '\n')
-   {
-      ch = getchar();
-      if(ch >= 'a' && ch <= 'z')
+   char ch[N];
+   int i, n, flag = 1;
+   printf("Enter a string: ");
+   i = 0;
+   while ((ch[i] = getchar()) != '\n')
+      ++i;
+   n = i;
+   ch[i] = '\0';
+   for (i = 0; i < n; ++i)
+      if (ch[i] >= 'a' && ch[i] <= 'z')
       {
-         ch = ch - 32;
-         printf("%c", ch);
+         flag = 0;
+         ch[i] = ch[i] - 32;
       }
-      else if (ch >= 'A' && ch <= 'Z')
-      {
+      if (flag == 1)
          printf("no lowercase");
-      }
-   }
-   return 0;
+      else
+         for (i = 0; i < n; ++i)
+            printf("%c", ch[i]);
+      return 0;
 }
